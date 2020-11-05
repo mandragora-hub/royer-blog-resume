@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Grid, Divider } from '@material-ui/core';
+import { Typography, Grid, Divider, Box } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from '@material-ui/core';
 
@@ -44,19 +44,32 @@ export default function WorkSection(props) {
               <Divider className={classes.shortDivider} />
             </Grid>
           </Grid>
-          <Grid item >
-            <Typography >
-              <Link href="https://clone-2fa9c.web.app/" target="_blank" color="inherit">
-                {'Amazon - Clone'}
-              </Link>
-            </Typography>
+          <Grid item>
+            <Box mt="10px">
+              <Typography >
+                <Link href="https://clone-2fa9c.web.app/" target="_blank" color="inherit">
+                  {'Amazon - Clone'}
+                </Link>
+              </Typography>
+            </Box>
           </Grid>
           <Grid item >
-            <Typography >
-              <Link href="https://iso-815.herokuapp.com/" target="_blank" color="inherit">
-                {'ISO815 - Restfull Api(CRUD)'}
-              </Link>
-            </Typography>
+            <Box mt="10px">
+              <Typography >
+                <Link href="https://iso-815.herokuapp.com/" target="_blank" color="inherit">
+                  {'ISO815 - Restfull Api(CRUD)'}
+                </Link>
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item >
+            <Box mt="10px">
+              <Typography >
+                <Link href="https://github.com/mandragora-hub/royer-blog-resume" target="_blank" color="inherit">
+                  {'Repository - CV Resumen'}
+                </Link>
+              </Typography>
+            </Box>
           </Grid>
         </Grid>
       </Grid>
