@@ -38,8 +38,8 @@ const mainFeaturedPost = {
   title: 'I am Royer Gomez',
   description:
     "My name is Royer Gomez. I am a software developer. I stand out in the area of web programming and mobile applications, embedded. My most notable qualities are responsibility, gravitation, sobriety and love for science and knowledge.",
-  image: 'https://source.unsplash.com/random',
-  imgText: 'main image description',
+  image: 'https://source.unsplash.com/1600x900/?linux',
+  imgText: 'Random image',
 };
 
 // const featuredPosts = [
